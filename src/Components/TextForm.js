@@ -39,17 +39,17 @@ export default function TextForm(props) {
           ></textarea>
         </div>
         {/* Buttons -uppercase */}
-        <button className="btn btn-primary" onClick={handleUpClick}>
+        <button className="btn btn-primary mx-1 my-1" onClick={handleUpClick}>
           Convert to Upercase!
         </button>
         {/* Buttons -uppercase */}
 
-        <button className="btn btn-primary mx-4" onClick={handleLowClick}>
+        <button className="btn btn-primary mx-1 my-2" onClick={handleLowClick}>
           Convert to Lowercase!
         </button>
        
        {/* Buttons - Clear */}
-        <button className="btn btn-primary mx-3" onClick={handleClearClick}>
+        <button className="btn btn-primary mx-1 my-2" onClick={handleClearClick}>
           Clear Text!!
         </button>
       </div>
